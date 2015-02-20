@@ -1,0 +1,4 @@
+name = "Entity Metadata Wrapper Analysis"
+description = "Allows you to test the performance of the entity_metadata_wrapper function against alternative data retrieval methods."
+core = "7.x"
+package = "Analysis"
