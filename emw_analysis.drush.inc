@@ -118,7 +118,7 @@ function drush_emw_analysis() {
   drush_log('field_view_value vs. field_get_items', 'success');
   drush_log(round($time4/$time3, 3) . ' times longer', 'success');
   drush_log(round($time4-$time3, 3) . ' seconds longer', 'success');
-  drush_log('field_get_items memory usage: ' . format_bytes($memory_4 - $memory_3), 'success');
+  drush_log('field_view_value memory usage: ' . format_bytes($memory_4 - $memory_3), 'success');
 }
 
 /**
